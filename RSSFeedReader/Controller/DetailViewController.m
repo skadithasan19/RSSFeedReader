@@ -24,7 +24,7 @@
     // Update the user interface for the detail item.
     [self.storyTitle setText:self.newsManageObject.title];
     [self.photo setImage:[UIImage imageWithData:self.newsManageObject.imageData]];
-    [self.webview loadHTMLString:self.newsManageObject.shortdescription baseURL:nil];
+    [self.webview loadHTMLString:self.newsManageObject.shortdescription baseURL:[NSURL URLWithString:self.newsManageObject.imageURL]];
 }
 
 - (void)viewDidLoad {
