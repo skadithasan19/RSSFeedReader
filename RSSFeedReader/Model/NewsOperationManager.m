@@ -86,7 +86,9 @@
         [newManagedObject setImageData:imgData];
 }
 
-
+/**
+ @return Array returning with existing news feed
+ */
 -(NSArray *) fetchExistingFeed {
     
     NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];

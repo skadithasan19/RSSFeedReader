@@ -115,6 +115,10 @@
 
 
 
+/**
+ @param obj news object. which contains all news information
+ @return returning new dictionary object after adding imageURL
+ */
 
 -(NSDictionary *)addImageLink:(NSDictionary *)news {
     

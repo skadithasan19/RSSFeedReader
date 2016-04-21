@@ -11,6 +11,4 @@
 @synthesize shortdescription;
 @synthesize imageURL;
 @synthesize imageData;
-
-
 @end

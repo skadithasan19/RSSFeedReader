@@ -23,7 +23,15 @@
 
 + (XMLParser *)XMLParserInstance;
 
+/**
+ @param url is end point.
+ */
 - (void) loadNewsFromAPI:(NSString *)url;
+
+/**
+ @param obj news object. which contains all news information
+ @return returning new dictionary object after adding imageURL
+ */
 
 - (NSDictionary *)addImageLink:(NSDictionary *)news;
 
